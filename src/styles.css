@@ -1,0 +1,96 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flag-input-name {
+  width: 70%;
+  max-width: 500px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.flag-name {
+  color: #6a6a6a;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 4px #d9d9d9;
+}
+
+.flag-input {
+  box-shadow: inset 10px 10px 20px #d9d9d9, inset -10px -10px 20px #ffffff;
+}
+
+.flag-input:focus {
+  outline: 0;
+}
+
+.flag-all {
+  margin: auto;
+  margin-top: 200px;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flag-one {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+}
+
+.flag-one:focus {
+  outline: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d22f27;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .flag-input-name {
+    font-size: 1rem;
+  }
+}
