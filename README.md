@@ -1,6 +1,6 @@
 ![Funn-With-flags](images/fwf.png)
 
-# mando-tongue
+# Funn With Flags
 
 It is a Flag emoji interpreter web app made with React, provides the Country name for the Flag emoji entered by the user.
 
