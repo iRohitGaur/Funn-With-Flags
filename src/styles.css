@@ -41,6 +41,7 @@
 }
 
 .flag-input {
+  border: #d9d9d9 1px solid;
   box-shadow: inset 10px 10px 20px #d9d9d9, inset -10px -10px 20px #ffffff;
 }
 
